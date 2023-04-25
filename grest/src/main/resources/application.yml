@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rds-mysql-gl.c7yzkpmfs4wd.us-east-2.rds.amazonaws.com:3306/Gsqldb
+    username: ENC(/954yG25+zD2TGVpaEY0/RV47x8lY8XqwlP8Bs834j1w+mhZ6lrh4+jOtsSoXhNP)
+    password: ENC(UtECKiipl9VNIzxQr20vq7tftN6ho6aGQYs2tsAqpnh3BxvZnMl32GneHbtbqWCZ)
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true
+    properties.hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
